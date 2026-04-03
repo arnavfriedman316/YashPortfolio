@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="meta-title">Vibrant Vision | Video Editor & Motion Graphics</title>
+    <meta id="meta-desc" name="description"
+        content="Portfolio of a creative video editor specializing in dynamic, high-energy edits.">
+
+    <!-- Google Fonts: Outfit for striking headers, Inter for clean body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons for lively, consistent UI icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Dynamic animated backgrounds -->
+    <div class="mesh-gradient-bg window-full">
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        <div class="gradient-blob blob-3"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="custom-cursor">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="1,1 23,8 12,12 8,23" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+        </svg>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo" id="nav-logo"></div>
+        <ul class="nav-links" id="nav-links-container">
+            <!-- Dynamically injected links and buttons -->
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content fade-in-up">
+                <div class="badge" id="hero-badge"></div>
+                <h1 class="hero-title" id="hero-title">
+                    <span id="hero-title-base"></span><span class="highlight-text colorful"
+                        id="hero-title-highlight"></span><br>
+                    <span id="hero-title-end"></span>
+                </h1>
+                <p class="hero-subtitle" id="hero-subtitle"></p>
+                <div class="hero-actions">
+                    <button class="btn-primary hover-target open-video-modal" id="hero-cta">
+                        <!-- Injected -->
+                    </button>
+                    <div class="social-icons" id="hero-socials">
+                        <!-- Dynamically injected -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating interactive reel circle -->
+            <div class="hero-visual fade-in-up delay-2">
+                <div class="showreel-circle hover-target open-video-modal" id="hero-circle-btn">
+                    <div class="circle-text">
+                        <svg viewBox="0 0 100 100">
+                            <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+                            <text>
+                                <textPath href="#circlePath" id="hero-circle-text"></textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <div class="circle-thumbnail" id="hero-circle-thumb"></div>
+                    <div class="play-btn"><i class="ph-fill ph-play"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Marquee -->
+        <div class="marquee-container">
+            <div class="marquee-content" id="marquee-content">
+                <!-- Dynamically injected items -->
+            </div>
+        </div>
+
+        <!-- Featured Work Section -->
+        <section class="work" id="work">
+            <div class="section-header reveal">
+                <h2><span id="work-header-title"></span><span class="highlight-text" id="work-header-highlight"></span>
+                </h2>
+                <p id="work-header-subtitle"></p>
+            </div>
+
+            <div class="work-grid" id="work-grid">
+                <!-- Dynamically loaded project cards -->
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="expertise" id="expertise">
+            <div class="expertise-container glass-panel reveal">
+                <div class="expertise-text">
+                    <h2><span id="expertise-header-title"></span><span class="highlight-text colorful"
+                            id="expertise-header-highlight"></span></h2>
+                    <p id="expertise-header-subtitle"></p>
+                </div>
+                <div class="software-grid" id="software-grid">
+                    <!-- Dynamically loaded software cards -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="reveal">
+        <div class="footer-content">
+            <h2 class="footer-title"><span id="footer-title-base"></span><span class="highlight-text"
+                    id="footer-title-highlight"></span></h2>
+            <a href="#" class="mega-email hover-target" id="footer-email"></a>
+            <div class="footer-bottom">
+                <p id="footer-copyright"></p>
+                <div class="social-links-footer" id="footer-socials">
+                    <!-- Dynamically loaded footer socials -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cinematic Video Modal -->
+    <div class="video-modal" id="video-modal">
+        <div class="video-modal-backdrop" id="video-modal-backdrop"></div>
+        <button class="modal-close hover-target" id="modal-close"><i class="ph-bold ph-x"></i></button>
+        <div class="video-modal-content">
+            <video id="modal-video-player" controls preload="metadata">
+                <source src="" type="video/mp4" id="modal-video-source">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

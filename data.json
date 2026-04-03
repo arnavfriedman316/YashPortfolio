@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Vibrant Vision | Video Editor & Motion Graphics",
+    "description": "Portfolio of a creative video editor specializing in dynamic, high-energy edits."
+  },
+  "logo": {
+    "text": "VV",
+    "dot": "."
+  },
+  "navigation": [
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Expertise",
+      "href": "#expertise"
+    }
+  ],
+  "contactButton": {
+    "label": "Let's Talk",
+    "href": "#contact"
+  },
+  "hero": {
+    "badge": "Yash Panwar | Video Editor | Content Creator",
+    "titleBase": "Bringing ",
+    "titleHighlight": "Stories",
+    "titleEnd": "to Life.",
+    "subtitle": "High-energy cuts, seamless transitions, and visual rhythm. I turn raw footage into captivating visual experiences.",
+    "ctaButton": {
+      "label": "View Showreel",
+      "targetSection": "work"
+    },
+    "socialIcons": [
+      {
+        "platform": "instagram",
+        "iconClass": "ph-bold ph-instagram-logo",
+        "href": "#"
+      },
+      {
+        "platform": "vimeo",
+        "iconClass": "ph-bold ph-vimeo-logo",
+        "href": "#"
+      }
+    ],
+    "showreelVideo": "videos/my_showreel.mp4",
+    "showreelThumbnail": "images/concert_reel.png",
+    "circleText": "PLAY SHOWREEL • PLAY SHOWREEL • "
+  },
+  "marquee": [
+    "MOTION GRAPHICS",
+    "COLOR GRADING",
+    "SOUND DESIGN",
+    "VFX",
+    "COMMERCIALS",
+    "MUSIC VIDEOS",
+    "MOTION GRAPHICS",
+    "COLOR GRADING",
+    "SOUND DESIGN",
+    "VFX",
+    "COMMERCIALS",
+    "MUSIC VIDEOS"
+  ],
+  "workSection": {
+    "headerTitle": "Selected ",
+    "headerHighlight": "Works",
+    "headerSubtitle": "A collection of my recent visual creations.",
+    "projects": [
+      {
+        "id": "project-1",
+        "image": "images/concert_reel.png",
+        "fallbackImage": "https://images.unsplash.com/photo-1540039155732-d6883b27b911?auto=format&fit=crop&w=800&q=80",
+        "alt": "Neon Festival Aftermovie",
+        "tags": [
+          "Event",
+          "High Energy"
+        ],
+        "title": "Neon Horizon Festival",
+        "description": "Official 2025 Aftermovie. Cutting to the beat with dynamic VFX.",
+        "extraClasses": "",
+        "videoFile": "videos/file_1.mov"
+      },
+      {
+        "id": "project-2",
+        "image": "images/car_reel.png",
+        "fallbackImage": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80",
+        "alt": "Apex Automotive Commercial",
+        "tags": [
+          "Commercial",
+          "Color Grading"
+        ],
+        "title": "Apex Automotive GT",
+        "description": "Cinematic launch trailer featuring aggressive edits and intense sound design.",
+        "extraClasses": "delay-1 offset-down",
+        "videoFile": "videos/file_2.mov"
+      },
+      {
+        "id": "project-3",
+        "image": "images/commercial_reel.png",
+        "fallbackImage": "https://images.unsplash.com/photo-1511556820780-d912e42b4980?auto=format&fit=crop&w=800&q=80",
+        "alt": "Splash Sneaker Drop Campaign",
+        "tags": [
+          "Fashion",
+          "Motion Graphics"
+        ],
+        "title": "Splash Kicks Campaign",
+        "description": "Vibrant mixed-media advert combining 3D elements and live-action.",
+        "extraClasses": "delay-2",
+        "videoFile": "videos/file_3.mov"
+      },
+      {
+        "id": "project-4",
+        "image": "images/concert_reel.png",
+        "fallbackImage": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80",
+        "alt": "Epic Montage",
+        "tags": [
+          "Montage",
+          "Creative"
+        ],
+        "title": "Creative Montage 2026",
+        "description": "A rapid-fire supercut demonstrating precision timing and mood creation.",
+        "extraClasses": "offset-down",
+        "videoFile": "videos/file_4.mp4"
+      }
+    ]
+  },
+  "expertiseSection": {
+    "headerTitle": "The ",
+    "headerHighlight": "Stack",
+    "headerSubtitle": "I combine technical precision with creative flair using the industry's best tools.",
+    "software": [
+      {
+        "iconClass": "ph-bold ph-video-camera",
+        "colorClass": "pr",
+        "shortName": "Pr",
+        "fullName": "Premiere Pro"
+      },
+      {
+        "iconClass": "ph-bold ph-magic-wand",
+        "colorClass": "ae",
+        "shortName": "Ae",
+        "fullName": "After Effects"
+      },
+      {
+        "iconClass": "ph-bold ph-palette",
+        "colorClass": "resolve",
+        "shortName": "DaVinci",
+        "fullName": "Resolve"
+      }
+    ]
+  },
+  "footer": {
+    "titleBase": "Ready to create something ",
+    "titleHighlight": "epic?",
+    "email": "hello@example.com",
+    "mailtoLink": "mailto:hello@example.com",
+    "copyright": "© 2026 Vibrant Vision. All rights reserved.",
+    "socialLinks": [
+      {
+        "platform": "Instagram",
+        "href": "#"
+      },
+      {
+        "platform": "Twitter",
+        "href": "#"
+      },
+      {
+        "platform": "Vimeo",
+        "href": "#"
+      }
+    ]
+  }
+}
