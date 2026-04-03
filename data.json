@@ -24,9 +24,9 @@
   "hero": {
     "badge": "Yash Panwar | Video Editor | Content Creator",
     "titleBase": "Bringing ",
-    "titleHighlight": "Stories",
+    "titleHighlight": "Moments",
     "titleEnd": "to Life.",
-    "subtitle": "High-energy cuts, seamless transitions, and visual rhythm. I turn raw footage into captivating visual experiences.",
+    "subtitle": "High-energy cuts, seamless transitions, and visual rhythm. I turn RAW footage into captivating visual experiences.",
     "ctaButton": {
       "label": "View Showreel",
       "targetSection": "work"
@@ -50,14 +50,14 @@
   "marquee": [
     "MOTION GRAPHICS",
     "COLOR GRADING",
-    "SOUND DESIGN",
-    "VFX",
+    "MOTION GRAPHICS",
+    "VIDEO EDITING",
     "COMMERCIALS",
-    "MUSIC VIDEOS",
+    "FITNESS VLOGS",
     "MOTION GRAPHICS",
     "COLOR GRADING",
-    "SOUND DESIGN",
-    "VFX",
+    "EVENT EDITS",
+    "COOKING EDITS",
     "COMMERCIALS",
     "MUSIC VIDEOS"
   ],
@@ -70,57 +70,43 @@
         "id": "project-1",
         "image": "images/concert_reel.png",
         "fallbackImage": "https://images.unsplash.com/photo-1540039155732-d6883b27b911?auto=format&fit=crop&w=800&q=80",
-        "alt": "Neon Festival Aftermovie",
+        "alt": "Animation Portfolio Piece",
         "tags": [
-          "Event",
-          "High Energy"
+          "Animation",
+          "2D/3D"
         ],
-        "title": "Neon Horizon Festival",
-        "description": "Official 2025 Aftermovie. Cutting to the beat with dynamic VFX.",
+        "title": "Dynamic Animation Demo",
+        "description": "A showcase of smooth keyframing and character animation techniques.",
         "extraClasses": "",
-        "videoFile": "videos/file_1.mov"
+        "videoFile": "videos/animation.mov"
       },
       {
         "id": "project-2",
         "image": "images/car_reel.png",
         "fallbackImage": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80",
-        "alt": "Apex Automotive Commercial",
+        "alt": "Color Grading Showcase",
         "tags": [
-          "Commercial",
-          "Color Grading"
+          "Color Grading",
+          "Cinematic"
         ],
-        "title": "Apex Automotive GT",
-        "description": "Cinematic launch trailer featuring aggressive edits and intense sound design.",
+        "title": "Cinematic Color Grading",
+        "description": "Before and after comparisons of log footage brought to life.",
         "extraClasses": "delay-1 offset-down",
-        "videoFile": "videos/file_2.mov"
+        "videoFile": "videos/colorgrading.mov"
       },
       {
         "id": "project-3",
         "image": "images/commercial_reel.png",
         "fallbackImage": "https://images.unsplash.com/photo-1511556820780-d912e42b4980?auto=format&fit=crop&w=800&q=80",
-        "alt": "Splash Sneaker Drop Campaign",
+        "alt": "Motion Graphics Composition",
         "tags": [
-          "Fashion",
-          "Motion Graphics"
+          "Motion Graphics",
+          "VFX"
         ],
-        "title": "Splash Kicks Campaign",
-        "description": "Vibrant mixed-media advert combining 3D elements and live-action.",
+        "title": "Motion Graphics Reel",
+        "description": "High-energy title sequences and complex motion compositions.",
         "extraClasses": "delay-2",
-        "videoFile": "videos/file_3.mov"
-      },
-      {
-        "id": "project-4",
-        "image": "images/concert_reel.png",
-        "fallbackImage": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80",
-        "alt": "Epic Montage",
-        "tags": [
-          "Montage",
-          "Creative"
-        ],
-        "title": "Creative Montage 2026",
-        "description": "A rapid-fire supercut demonstrating precision timing and mood creation.",
-        "extraClasses": "offset-down",
-        "videoFile": "videos/file_4.mp4"
+        "videoFile": "videos/motiongraphics.mov"
       }
     ]
   },
