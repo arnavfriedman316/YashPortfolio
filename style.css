@@ -43,6 +43,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -768,6 +769,10 @@ footer {
         text-align: center;
         padding-top: calc(var(--nav-height) + 2rem);
     }
+    
+    .hero-subtitle {
+        margin: 0 auto 2rem;
+    }
 
     .hero-actions {
         justify-content: center;
@@ -776,6 +781,11 @@ footer {
     .hero-visual {
         margin-top: 4rem;
         justify-content: center;
+        transform: scale(0.85); /* Prevent circle from overflowing tiny screens */
+    }
+
+    .expertise-container {
+        padding: 2.5rem 1.5rem;
     }
 
     .software-grid {
@@ -784,6 +794,15 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .nav-links {
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .btn-primary {
+        padding: 0.5rem 1rem;
+    }
+    
     .software-grid {
         grid-template-columns: 1fr;
     }
