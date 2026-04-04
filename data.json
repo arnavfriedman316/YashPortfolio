@@ -35,12 +35,7 @@
       {
         "platform": "instagram",
         "iconClass": "ph-bold ph-instagram-logo",
-        "href": "#"
-      },
-      {
-        "platform": "vimeo",
-        "iconClass": "ph-bold ph-vimeo-logo",
-        "href": "#"
+        "href": "https://www.instagram.com/yash.aestheticss/"
       }
     ],
     "showreelVideo": "videos/my_showreel.mp4",
@@ -118,8 +113,8 @@
       {
         "iconClass": "ph-bold ph-video-camera",
         "colorClass": "pr",
-        "shortName": "Pr",
-        "fullName": "Premiere Pro"
+        "shortName": "DaVinci",
+        "fullName": "Resolve"
       },
       {
         "iconClass": "ph-bold ph-magic-wand",
@@ -144,14 +139,10 @@
     "socialLinks": [
       {
         "platform": "Instagram",
-        "href": "#"
+        "href": "https://www.instagram.com/yash.aestheticss/"
       },
       {
         "platform": "Twitter",
-        "href": "#"
-      },
-      {
-        "platform": "Vimeo",
         "href": "#"
       }
     ]
