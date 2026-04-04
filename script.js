@@ -128,6 +128,7 @@ function renderContent(data) {
 
     document.getElementById('footer-email').innerText = data.footer.email;
     document.getElementById('footer-email').href = data.footer.mailtoLink;
+    document.getElementById('footer-email').target = "_blank";
     document.getElementById('footer-copyright').innerHTML = data.footer.copyright;
 
     const footerSocials = document.getElementById('footer-socials');
